@@ -1,5 +1,5 @@
 //masonry.
-var totalRows = 3,
+var totalRows = 4,
     itemCol = 0;
 for(var rowCount = 0; rowCount < totalRows; rowCount++){
     newCol = document.createElement('div');
@@ -16,4 +16,9 @@ for(var itemCount = 0; itemCount <  document.getElementsByClassName('item').leng
     }
 }
 
-//--------------------------------------------------------------------
+// var contiainer = document.querySelector('.images_content');
+// var masonry = new Masonry(contiainer, {
+//     columnWidth: 50,
+//     itemSelector: '.item'
+// });
+

@@ -1,0 +1,20 @@
+.images_content{
+    width: 1200px;
+    margin: 0 auto;
+    /* position: absolute;
+    top: 863px;
+    left: 228px; */
+    overflow: hidden;
+    padding: 0px 0px 10px 10px;
+}
+.images_content .col {
+    float: left;
+    width: 30%;
+}
+
+.images_content .col .item {
+    /* background: #ccc; */
+    display: block;
+    margin: 10px 10px 0px 0px;
+    padding: 10px;
+}
